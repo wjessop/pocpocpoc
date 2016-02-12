@@ -1,0 +1,7 @@
+This is the public page accessible from /. It sets a session that allows you access to the private area.
+
+<ul>
+  <li><%= link_to "The private page, a valid session is required", controller: 'page', action: 'private' %></li>
+  <li><%= link_to "Get you a session", controller: 'page', action: 'create_session' %></li>
+  <li><%= link_to "Delete your session", controller: 'page', action: 'delete_session' %></li>
+</ul>

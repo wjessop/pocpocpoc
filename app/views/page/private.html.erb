@@ -1,0 +1,6 @@
+This is the private page accessible only with a valid session.
+
+<ul>
+  <li><%= link_to "The public page", controller: 'page', action: 'private' %></li>
+  <li><%= link_to "Delete your session", controller: 'page', action: 'delete_session' %></li>
+</ul>
